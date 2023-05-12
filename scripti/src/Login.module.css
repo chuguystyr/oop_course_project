@@ -1,0 +1,111 @@
+  body {
+    margin: 0 auto;
+  }
+
+  .LoginWrapper {
+    font-family: "Roboto", sans-serif;
+    background-image: url(LoginBackground.png);
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .LoginContainer {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+  }
+
+  .error {
+    font-size: medium;
+    text-align: center;
+    font-weight: 600;
+    background-color: rgb(233, 86, 86);
+    border-radius: 5px;
+    padding: 8px;
+  }
+
+  .LoginHeading {
+    font-family: 'Alkatra', cursive;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input_field {
+    margin-bottom: 20px;
+  }
+
+  label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 5px;
+    display: block;
+    margin-top: 20px;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f5f5f5;
+    transition: all 0.2s ease;
+  }
+
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="email"]:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+
+  button[type="submit"] {
+    width: fit-content;
+    align-self: center;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: 20px;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  .SignUpDiv {
+    display: flex;
+  }
+  .SignUpDiv button, .modal button {
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(57, 57, 57);
+    color: #fff;
+    align-self: center;
+    height: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .SignUpDiv button:hover, .modal button:hover {
+    background-color: black;
+  }

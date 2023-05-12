@@ -1,0 +1,35 @@
+.MainHeader {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+   .MainHeader button {
+    font-size: 16px;
+    border-radius: 15px;
+    width: 100px;
+    height: fit-content;
+    align-self: center;
+    transition: 0.3s ease-in;
+   }
+
+   .MainHeader button:hover {
+    color: #fff;
+    background-color: rgb(50, 50, 50);
+   }
+
+  .MainLogo {
+    color: #555555;
+    align-self: flex-start;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Alkatra', cursive;
+  }
+
+  .active {
+    background-color: rgb(50, 50, 50);
+    color: #fff;
+  }

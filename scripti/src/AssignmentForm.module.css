@@ -1,0 +1,31 @@
+.assignment {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 20%;
+    border-radius: 15px;
+    border: 2px solid black;
+    color: white;
+    background-color: whitesmoke;
+}
+.assignment label, .assignment input, .assignment select, .assignment textarea {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.assignment input[type="text"] {
+    background-color: #fff;
+}
+.assignment button {
+    margin-bottom: 10px;
+}
+.close {
+    color: black;
+    border:none;
+    border-radius: 15px;
+    background-color: inherit;
+    justify-content: center;
+}

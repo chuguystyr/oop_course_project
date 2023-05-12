@@ -1,0 +1,44 @@
+.container {
+    font-size: 20px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 82%;
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 15px;
+    padding-left: 10px;
+    grid-row: 2 / 4;
+    grid-column: 1 / 2;
+    text-align: center;
+    margin-left: 60px;
+}
+
+h1 {
+    font-size: larger;
+    text-align: center;
+    font-size: large;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 5px;
+    margin-bottom: 15px;
+}
+table button {
+    background-color: rgb(88, 135, 243);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: 0.3s ease-in;
+    width: 65%;
+}
+table button:hover {
+    background-color: rgb(0, 70, 233);
+}
+
+table tbody tr:hover {
+    background-color: whitesmoke;
+}

@@ -1,0 +1,81 @@
+.MainContainer {
+    font-family: 'Alkatra', cursive;
+    background-color: #ECECEC;
+    height: 100vh;
+    background-image: url('LoginBackground.png');
+  }
+
+  .AssignmentsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row: 2 / 4;
+    grid-column: 2 / 4;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr;
+    gap: 20px;
+    font-size: 16px;
+  }
+
+  .time {
+    grid-row: 1;
+    grid-column: 1;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 37%;
+  }
+  .time h2, .time p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .firstSection {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+  }
+  .firstSection button {
+    font-size: 16px;
+    background-color: #ffffff;
+    height: 100%;
+    width: fit-content;
+    border-radius: 15px;
+    align-self: center;
+    transition: 0.5s ease-in-out;
+  }
+  .firstSection button:hover {
+    background-color: rgb(90, 90, 90);
+    color: #fff;
+  }
+  .statistics {
+    width: 705px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .statisticsInside {
+    background-color: #fff;
+    border-radius: 20px;
+    width: 25%;
+  }
+  .statisticsInside p {
+    text-align: center;
+  }
+  .unstarted, .inProgress, .done {
+    font-size: 45px;
+    font-weight: 800;
+    margin: 0;
+  }
+  .unstarted {
+    color: crimson;
+  }
+  .inProgress {
+    color: gold;
+  }
+
+  .done {
+    color: green;
+  }

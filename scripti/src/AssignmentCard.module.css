@@ -1,0 +1,30 @@
+.assignment {
+    width: 325px;
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    padding-bottom: 5px;
+    margin: 5px;
+    margin-left: -24px;
+}
+h1 {
+    font-size: 15px;
+}
+.deadline {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.details {
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.iconButton {
+    align-self: center;
+    margin-left: 10px;
+
+}
+span {
+    display: flex;
+}

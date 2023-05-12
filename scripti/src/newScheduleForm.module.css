@@ -1,0 +1,57 @@
+.schedule {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 75%;
+    height: 65%;
+    border-radius: 15px;
+    border: 2px solid black;
+    color: white;
+    background-color: whitesmoke;
+}
+.schedule label, .schedule input, .schedule select, .schedule textarea {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 75%;
+    height: 30px;
+}
+.schedule input[type="text"] {
+    background-color: #fff;
+    width: 51%;
+    height: auto;
+}
+.schedule button {
+    margin-bottom: 10px;
+    width: 75%;
+}
+.schedule button[type="button"] {
+    width: fit-content;
+    margin: 0 auto;
+}
+.close {
+    color: black;
+    border:none;
+    border-radius: 15px;
+    background-color: inherit;
+    justify-content: center;
+}
+.dates {
+    display: flex;
+}
+.schedule input[type="date"] {
+    width:min-content
+}
+.schedule table th,  .schedule table tr {
+    color: black;
+}
+.schedule button[type="submit"] {
+    margin-top: 10px;
+    width:7%;
+}
+.data {
+    display: flex;
+}
